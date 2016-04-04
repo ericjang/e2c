@@ -20,9 +20,9 @@ but degrade image reconstruction fidelity (more on this later...). Here's a diff
 ![poor reconstruction](http://i.imgur.com/cl9RjlR.png)
 
 ## Features:
-- Learns the latent space model for the planar control task.
+- Implements the standard E2C model with the factorized Gaussian KL divergence term (Eq. 14)
 - Adam Optimizer + Orthogonal weight initialization scheme by [Saxe et al.](http://arxiv.org/abs/1312.6120).
-- Implementation of factorized Gaussian KL divergence (Eq. 14).
+- Learns the latent space of the planar control task (uses the same parameters described in the paper, Appendix B.6.2)
 
 ## Training the Model
 
